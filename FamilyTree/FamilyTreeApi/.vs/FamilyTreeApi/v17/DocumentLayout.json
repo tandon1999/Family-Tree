@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FamilyTree\\FamilyTreeApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\service\\implementation\\familymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:service\\implementation\\familymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\param\\familytreeparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:param\\familytreeparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\familytreeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:familytreeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\controllers\\familymembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:controllers\\familymembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\service\\interface\\ifamilymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:service\\interface\\ifamilymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\shared\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:shared\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\shared\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:shared\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\responsemodel\\familytreememberresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:responsemodel\\familytreememberresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\requestmodel\\familytreememberrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:requestmodel\\familytreememberrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|d:\\familytree\\familytreeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4569072-6B18-4D4A-824F-678C03BEFC29}|FamilyTreeApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FamilyTreeApi.csproj",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\FamilyTreeApi.csproj",
+              "RelativeDocumentMoniker": "FamilyTreeApi.csproj",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\FamilyTreeApi.csproj",
+              "RelativeToolTip": "FamilyTreeApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T19:33:20.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FamilyMemberController.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Controllers\\FamilyMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FamilyMemberController.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Controllers\\FamilyMemberController.cs",
+              "RelativeToolTip": "Controllers\\FamilyMemberController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:04:00.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FamilyTreeParam.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Param\\FamilyTreeParam.cs",
+              "RelativeDocumentMoniker": "Param\\FamilyTreeParam.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Param\\FamilyTreeParam.cs",
+              "RelativeToolTip": "Param\\FamilyTreeParam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:11:29.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FamilyMemberService.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Service\\Implementation\\FamilyMemberService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\FamilyMemberService.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Service\\Implementation\\FamilyMemberService.cs",
+              "RelativeToolTip": "Service\\Implementation\\FamilyMemberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:09:33.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FamilyTreeMemberResponseModel.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\ResponseModel\\FamilyTreeMemberResponseModel.cs",
+              "RelativeDocumentMoniker": "ResponseModel\\FamilyTreeMemberResponseModel.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\ResponseModel\\FamilyTreeMemberResponseModel.cs",
+              "RelativeToolTip": "ResponseModel\\FamilyTreeMemberResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:06:54.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FamilyTreeMemberRequestModel.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\RequestModel\\FamilyTreeMemberRequestModel.cs",
+              "RelativeDocumentMoniker": "RequestModel\\FamilyTreeMemberRequestModel.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\RequestModel\\FamilyTreeMemberRequestModel.cs",
+              "RelativeToolTip": "RequestModel\\FamilyTreeMemberRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:06:30.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFamilyMemberService.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Service\\Interface\\IFamilyMemberService.cs",
+              "RelativeDocumentMoniker": "Service\\Interface\\IFamilyMemberService.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Service\\Interface\\IFamilyMemberService.cs",
+              "RelativeToolTip": "Service\\Interface\\IFamilyMemberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:04:43.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:37:21.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:36:58.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IResponse.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Shared\\IResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\IResponse.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Shared\\IResponse.cs",
+              "RelativeToolTip": "Shared\\IResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:18:23.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\FamilyTree\\FamilyTreeApi\\Shared\\Response.cs",
+              "RelativeDocumentMoniker": "Shared\\Response.cs",
+              "ToolTip": "D:\\FamilyTree\\FamilyTreeApi\\Shared\\Response.cs",
+              "RelativeToolTip": "Shared\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:18:54.492Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
