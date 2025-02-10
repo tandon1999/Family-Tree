@@ -4,7 +4,7 @@ using FamilyTreeApi.Shared;
 
 namespace FamilyTreeApi.Service.Interface
 {
-    public interface IFamilyMemberService 
+    public interface IFamilyMemberService :IService
     {
         Task<IResponse> CreateFamilyTreeMember(FamilyTreeMemberRequestModel model);
         Task<IResponse> DeleteFamilyTreeMember(int Id);

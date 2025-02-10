@@ -1,0 +1,108 @@
+﻿@page "/familysetup"
+@using Microsoft.AspNetCore.Components.Forms
+
+<h3> Tandan Family Setup</h3>
+<div class="container">
+    <div class="row">
+        <!-- Image Upload Section -->
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="ProfilePicture">Upload Profile Picture</label>
+                <InputFile class="form-control" id="ProfilePicture" OnChange="HandleFileSelected" />
+            </div>
+        </div>
+
+        @if (!string.IsNullOrEmpty(uploadedImageUrl))
+        {
+            <div class="col-md-6 mt-4">
+                <img src="@uploadedImageUrl" alt="Profile Picture" width="200" />
+            </div>
+        }
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">First Name</label>
+                <InputText class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.FirstName" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Middle Name</label>
+                <InputText class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.MiddleName" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Last Name</label>
+                <InputText class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.LastName" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Date of Birth</label>
+                <InputDate class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.DOB" @oninput="CalculateAge" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Age</label>
+                <InputNumber class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.Age" ReadOnly />
+            </div>
+        </div>
+
+
+        <div class="col-md-6 mt-4">
+            <div class="form-group custom-input">
+                <label for="IsDeath">Is Death?</label>
+                <InputCheckbox id="IsDeath" @bind-Value="@memberSetupModel.IsDeath" />
+            </div>
+        </div>
+
+        @if (memberSetupModel.IsDeath)
+        {
+            <div class="col-md-6">
+                <div class="form-group custom-input">
+                    <label for="DeathDate">Death Date</label>
+                    <InputDate class="form-control" id="DeathDate" @bind-Value="@memberSetupModel.DeathDate" />
+                </div>
+            </div>
+        }
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">No Of Childern</label>
+                <InputNumber class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.NoOfChildren" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Description</label>
+                <InputTextArea class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.Description" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group custom-input">
+                <label for="PayrateName">Address</label>
+                <InputTextArea class="form-control" id="PayrateName" @bind-Value="@memberSetupModel.Address" />
+            </div>
+        </div>
+    </div>
+    @if (memberSetupModel.Id != 0)
+    {
+        <div class="mt-4">
+            <button @onclick="Save">Update</button>
+        </div>
+    }
+    else
+    {
+        <div class="mt-4">
+            <button @onclick="Save">Save</button>
+        </div>
+    }
+</div>

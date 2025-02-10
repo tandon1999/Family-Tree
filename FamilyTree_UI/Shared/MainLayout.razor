@@ -1,0 +1,17 @@
+﻿@using Blazored.Toast
+@inherits LayoutComponentBase
+
+<PageTitle>Family Tree</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <article class="content px-4">
+            @Body
+            <BlazoredToasts></BlazoredToasts>
+        </article>
+    </main>
+</div>

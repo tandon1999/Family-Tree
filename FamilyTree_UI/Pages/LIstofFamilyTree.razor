@@ -1,0 +1,67 @@
+﻿@page "/familylist"
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Date of Birth</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Occupation</th>
+                <th>Description</th>
+                <th>Date of Death</th>
+                <th>Marital Status</th>
+                <th>Father's Name</th>
+                <th>Mother's Name</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (familyTreeMemberlist?.Count > 0)
+            {
+                foreach (var member in familyTreeMemberlist)
+                {
+                    <tr>
+                        <td>@member.FullName</td>
+                        <td>@member.DOB.ToString("MM/dd/yyyy")</td>
+                        <td>@member.Age</td>
+                        <td>@member.GenderName</td>
+                        <td>@member.OccupationType</td>
+                        <td>@member.Description</td>
+                        <td>@member.DeathDate.ToString("MM/dd/yyyy")</td>
+                        <td>@member.MatrialStatus</td>
+                        <td>@member.FatherName</td>
+                        <td>@member.MotherName</td>
+                        <td>@member.Address</td>
+                        <td>
+                            <i @onclick="@((Id )=>Edit(member.Id))"
+                               class="material-icons float-right"
+                               style="color: #1da1f2; cursor:pointer"
+                               id="expand-icon"
+                               title="Edit">
+                                edit
+                            </i>
+                            <i @onclick="@((Id )=>Delete(member.Id))"
+                               class="material-icons float-right"
+                               style="color: #dc3545; cursor:pointer"
+                               id="expand-icon"
+                               title="Delete">
+                                delete
+                            </i>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="11" class="text-center">No family members available.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

@@ -10,6 +10,10 @@ namespace FamilyTreeApi.Controllers
     public class FamilyMemberController : ControllerBase
     {
         private readonly IFamilyMemberService _familyMemberService;
+        public FamilyMemberController(IFamilyMemberService familyMemberService)
+        {
+            _familyMemberService= familyMemberService;
+        }
 
         [HttpPost("CreateFamilyMember")]
         public async Task<IActionResult> CreateFamilyMemberAsync(FamilyTreeMemberRequestModel model)
